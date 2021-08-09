@@ -1,13 +1,10 @@
+import React from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Math Magicians</h1>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return '';
+  }
 }
 
 export default App;
