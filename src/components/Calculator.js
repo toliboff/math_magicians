@@ -1,6 +1,7 @@
 /*eslint-disable */
 import React, { Component } from 'react';
 import calculate from '../logic/calculator.js';
+import operate from '../logic/operate.js';
 class Calculator extends Component {
   constructor(props){
     super();
@@ -16,7 +17,7 @@ class Calculator extends Component {
   }
 
   handleClick(e){
-    const result = calculate(this.state.obj, e.target.name);
+    const result = calculate(this.state.obj, e.target.name, operate);
     this.setState({obj: {...this.state.obj, ...result}});
   }
 
