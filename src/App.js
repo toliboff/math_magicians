@@ -2,10 +2,9 @@
 import React from 'react';
 import Calculator from './components/Calculator';
 
-class App extends React.Component {
-  render() {
+const App = () => {
     return <Calculator />;
-  }
 }
+
 
 export default App;
