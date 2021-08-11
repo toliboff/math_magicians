@@ -5,6 +5,8 @@
 - Read a random math-related quote.
 # Screenshot
 ![screenshot](screenshot.png)
+
+[Live Demo Link](https://toliboff.github.io/math_magicians/)
 # Built With
 
 - React
