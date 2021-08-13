@@ -10,8 +10,12 @@ const Calculator = () => {
   });
 
   const handleClick = (e) => {
-    const result = calculate(obj, e.target.name, operate);
-    setObj({ ...obj, ...result });
+    try {
+      const result = calculate(obj, e.target.name, operate);
+      setObj({ ...obj, ...result });
+    } catch (error) {
+      setObj({ ...obj });
+    }
   };
 
   const buttonsArray = ['AC', '+/-', '%', '÷', 7, 8, 9, 'x', 4, 5, 6, '-', 1, 2, 3, '+', 0, '.', '='];
