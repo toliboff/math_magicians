@@ -32,7 +32,7 @@ function Quote() {
     },
   ];
 
-  const randomQuote = Math.floor(Math.random() * 7);
+  const randomQuote = Math.floor(Math.random() * quotes.length);
   return (
     <div className="Quote">
       <div className="q_container">
