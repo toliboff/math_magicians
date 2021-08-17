@@ -52,12 +52,17 @@ p {
   padding: 0 1rem;
 }
 
-
-
 /* CALCULATOR COMPONENT */
+.Calculate {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
 .Calculator {
   width: 40%;
-  margin: 5% auto;
+  margin: 0 auto;
   box-shadow: rgb(38, 57, 77) 0 20px 30px -10px;
   min-width: 400px;
 }
@@ -70,6 +75,7 @@ p {
   text-align: right;
   height: 5rem;
   line-height: 5rem;
+  margin: 0;
 }
 
 .buttons {
