@@ -105,3 +105,23 @@ button:nth-child(4n),
 button:last-child {
   background-color: #ffa500;
 }
+
+/* QUOTES COMPONENT */
+.Quote {
+  display: flex;
+  align-items: center;
+}
+
+.q_container {
+  width: 75%;
+  margin: 15% auto;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.author {
+  color: #ffa500;
+  align-self: flex-end;
+}
