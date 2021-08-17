@@ -3,17 +3,17 @@ import { NavLink } from 'react-router-dom';
 
 function Header() {
   return (
-    <div>
+    <div className="Header">
       <h1>Math Magicians</h1>
       <ul className="menu">
         <li>
-          <NavLink to="/">Home</NavLink>
+          <NavLink exact to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/calculator">Calculator</NavLink>
+          <NavLink exact to="/calculator">Calculator</NavLink>
         </li>
         <li>
-          <NavLink to="/quote">Quote</NavLink>
+          <NavLink exact to="/quote">Quote</NavLink>
         </li>
       </ul>
     </div>
