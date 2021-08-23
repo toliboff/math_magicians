@@ -7,6 +7,7 @@
 ![screenshot](screenshot.png)
 
 [Live Demo on Heroku](https://microversemathmagicians.herokuapp.com/calculator)
+[Live Demo on Netlify](https://mathmagicians.netlify.app/)
 # Built With
 
 - React
