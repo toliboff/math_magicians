@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculator';
-import operate from '../logic/operate';
 
 const Calculator = () => {
   const [obj, setObj] = useState({
@@ -11,7 +10,7 @@ const Calculator = () => {
 
   const handleClick = (e) => {
     try {
-      const result = calculate(obj, e.target.name, operate);
+      const result = calculate(obj, e.target.name);
       setObj({ ...obj, ...result });
     } catch (error) {
       setObj({ ...obj });
