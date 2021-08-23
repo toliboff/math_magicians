@@ -6,7 +6,7 @@
 # Screenshot
 ![screenshot](screenshot.png)
 
-[Live Demo Link](https://toliboff.github.io/math_magicians/)
+[Live Demo on Heroku](https://microversemathmagicians.herokuapp.com/calculator)
 # Built With
 
 - React
